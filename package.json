@@ -1,0 +1,26 @@
+{
+  "name": "autobus",
+  "version": "1.0.0",
+  "description": "Онлайн расписание автобусов",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bus",
+    "svitlychnyi"
+  ],
+  "type": "module",
+  "author": "serhii svitlychnyi",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "luxon": "^3.5.0",
+    "ws": "^8.18.0"
+  }
+}
